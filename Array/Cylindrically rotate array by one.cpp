@@ -21,7 +21,7 @@ void rotate(int arr[], int n)
 
 }
 
-/ Driver Code
+
 int main()
 {
     int n;
