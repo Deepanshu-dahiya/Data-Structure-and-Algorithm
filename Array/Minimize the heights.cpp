@@ -10,7 +10,7 @@ using namespace std;
 
 
 int getMinDiff(int arr[], int n, int k) {
-        // code here
+        
          sort(arr,arr+n);
        int diff=arr[n-1]-arr[0];
 
@@ -23,7 +23,7 @@ int getMinDiff(int arr[], int n, int k) {
            maxi=max(arr[i-1]+k,arr[n-1]-k);
            diff=min(diff,maxi-mini);
        }
-       // sort(arr,arr+n);
+      
        return diff;
     }
 int main(){
