@@ -31,6 +31,7 @@ struct Node
            prev=head1;
            head1=next;
        }
+        
        return prev;
    }
    bool isPalindrome(Node *head)
