@@ -1,3 +1,14 @@
 Can we write an algorithm to reverse the given linked list in less than O(n) runtime ?
 Ans:-  No, we cannot reverse a linked list in O(n) time, because each pointer must be reversed or values must be interchanged to reverse a linked list. 
 To do that we need to reach the last node which takes a pointer to reach last node which takes O(n) time.
+
+
+Why is Quick Sort preferred for arrays?
+1.Quick Sort in its general form is an in-place sort (i.e. it doesn’t require any extra storage) whereas merge sort requires O(N) extra storage, 
+N denoting the array size which may be quite expensive. Allocating and de-allocating the extra space used for merge sort increases the running time of the algorithm.
+
+2.Comparing average complexity we find that both type of sorts have O(NlogN) average complexity but the constants differ. 
+For arrays, merge sort loses due to the use of extra O(N) storage space.
+
+3.Most practical implementations of Quick Sort use randomized version. The randomized version has expected time complexity of O(nLogn). 
+The worst case is possible in randomized version also, but worst case doesn’t occur for a particular pattern (like sorted array) and randomized Quick Sort works well in prac0tice.
