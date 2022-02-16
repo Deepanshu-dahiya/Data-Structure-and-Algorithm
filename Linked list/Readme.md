@@ -14,6 +14,8 @@ struct node *next;
 ### Circular Linked List
 Circular linked list is a linked list where all nodes are connected to form a circle. There is no NULL at the end. A circular linked list can be a singly circular linked list or doubly circular linked list.
 
+We traverse a circular singly linked list until we reach the same node where we started. The circular singly liked list has no beginning and no ending. There is no null value present in the next part of any of the nodes.
+
 ![l2](https://user-images.githubusercontent.com/66161514/154309626-5a5ef907-f900-4fb5-8583-dc5ff95ed600.jpg)
 
 ### Doubly Linked List
