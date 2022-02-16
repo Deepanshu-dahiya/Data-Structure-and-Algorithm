@@ -25,3 +25,5 @@ struct node
     int data;  
     struct node *next;   
 }   
+
+![l3](https://user-images.githubusercontent.com/66161514/154310742-5f415abf-2114-4e3d-9a0d-542dce802cb4.png)
