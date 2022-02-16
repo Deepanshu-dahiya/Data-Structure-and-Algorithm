@@ -7,3 +7,15 @@ Link − Each link of a linked list can store a data called an element. Next −
 
 ### Circular Linked List
 Circular linked list is a linked list where all nodes are connected to form a circle. There is no NULL at the end. A circular linked list can be a singly circular linked list or doubly circular linked list.
+
+![l2](https://user-images.githubusercontent.com/66161514/154309626-5a5ef907-f900-4fb5-8583-dc5ff95ed600.jpg)
+
+### Doubly Linked List
+Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence. Therefore, in a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer).
+
+struct node   
+{  
+    struct node *prev;   
+    int data;  
+    struct node *next;   
+}   
